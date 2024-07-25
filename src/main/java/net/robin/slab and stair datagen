@@ -1,0 +1,8 @@
+Models and blocksstates ripped from Compactor so there was no need to run again, decided to include datagen used to create it
+for preservations sake
+
+        BlockStateModelGenerator.BlockTexturePool whiteConcretePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.WHITE_CONCRETE);
+
+        whiteConcretePool.slab(modBlocks.white_concrete_slab);
+        whiteConcretePool.stairs(modBlocks.white_concrete_stair);
