@@ -24,12 +24,12 @@ public class modBlocks {
     public static final Block white_concrete_slab = registerBlock("white_concrete_slab",
             new SlabBlock(AbstractBlock.Settings.copy(Blocks.WHITE_CONCRETE)));
 
-    private static void addItemToBuildingBlocks(FabricItemGroupEntries entries) {
+    private static void addItemToColoredBlocks(FabricItemGroupEntries entries) {
         entries.add(white_concrete_stair.asItem());
         entries.add(white_concrete_slab.asItem());
     }
 
     public static void registerBlocks() {
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(modBlocks::addItemToBuildingBlocks);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(modBlocks::addItemToColoredBlocks);
     }
 }

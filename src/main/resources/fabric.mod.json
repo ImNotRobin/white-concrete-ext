@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "white-concrete-ext",
   "version": "${version}",
-  "name": "white-concrete-ext",
+  "name": "White Concrete Ext.",
   "description": "Adds in white concrete slabs and stairs",
   "authors": [
     "ImNotRobin"
